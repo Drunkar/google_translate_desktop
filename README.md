@@ -1,5 +1,7 @@
 # Google Translate Desktop Helper
 
+![top image](top_image.png)
+
 [![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/)
 
 A desktop helper tool for Windows/macOS/Linux that allows you to quickly translate selected text from any application using Google Translate by double-pressing the `Ctrl+C` hotkey.
