@@ -96,7 +96,8 @@ You can use `PyInstaller` to create a single `.exe` file that can run on Windows
     Navigate to the script's directory in the command prompt or PowerShell and run:
 
     ```bash
-    pyinstaller --noconsole --onefile .\google_translate_desktop.py
+    .\venv\Scripts\activate
+    pyinstaller -D -w google_translate_desktop.py
     ```
 
     - `--noconsole`: Prevents the console window from appearing when the `.exe` runs.
